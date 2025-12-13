@@ -36,3 +36,34 @@
 		transform: rotate(360deg);
 	}
 }
+
+.GuestApp_Container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.GuestApp_Add_Input {
+	width: 400px;
+	font-size: 15px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.GuestApp_Add_Button {
+	width: 70px;
+	height: 30px;
+	margin-left: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+}
+
+.GuestApp_Add_Button:hover {
+	background-color: rgb(216, 216, 216);
+}
+
+.GuestApp {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
